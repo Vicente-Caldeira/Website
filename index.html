@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Stockastic - Home</title>
+    <link rel="shortcut icon" href="resources/fav.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&family=Roboto+Slab:wght@300;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <section class="first-page" id="first-page">
+            <div id="particles-js"></div>
+            <nav id="navbar">
+                <div class="logo">
+                    <div class="logoimg"></div>
+                    <a href="#first-page" class="logo">Stockastic</a>
+                </div>
+                <input type="checkbox" id="click" />
+                <label for="click" class="menu-btn">
+                    <i class="menu-icon">
+                        <svg width="37" height="30" viewBox="0 0 37 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3H34" stroke="var(--neutral-color)" stroke-width="5" stroke-linecap="round" />
+                            <path d="M3 15H34" stroke="var(--neutral-color)" stroke-width="5" stroke-linecap="round" />
+                            <path d="M3 27H34" stroke="var(--neutral-color)" stroke-width="5" stroke-linecap="round" />
+                        </svg>
+                    </i>
+                </label>
+                <ul>
+                    <li><a href="#team-info">About Us</a></li>
+                    <li><a href="http://stockastic.herokuapp.com/">Demo</a></li>
+                    <li><a href="#why-us">Features</a></li>
+                    <li><a id="get-started-btn" href="#footer">Get in touch</a></li>
+                    <!--
+                        <li><a href="#why-us">FAQ</a></li>
+                    <li><a id="login-btn" href="login.html">Login</a></li>
+                    <li><a id="get-started-btn" href="#">Get Started</a></li>
+                    -->
+                </ul>
+            </nav>
+
+            <div class="svg-bg">
+                <svg width="100%" height="100%" viewBox="0 0 1920 828" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 647.029C424 822.353 1150.4 1030.63 1920 417.582V0L0 0V647.029Z"
+                        fill="url(#paint0_radial_173_40)" />
+                    <defs>
+                        <radialGradient id="paint0_radial_173_40" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                            gradientTransform="translate(921 288.787) rotate(-90) scale(209.99 720.897)">
+                            <stop stop-color="var(--gradient-color-light)" />
+                            <stop offset="1" stop-color="var(--gradient-color-dark)" />
+                        </radialGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="content-container">
+
+                <div class="midtext-container">
+                    <p id="title-first">
+                        A machine learning approach <br />
+                        for the everyday trader
+                    </p>
+                </div>
+                <div class="stat-container">
+                    <div class="stat-sub-container">
+                        <p class="stat-number">40+</p>
+                        <p class="stat-info">
+                            Technical <br />
+                            indicators
+                        </p>
+                    </div>
+                    <div class="stat-sub-container">
+                        <p class="stat-number">60%</p>
+                        <p class="stat-info">Accuracy</p>
+                    </div>
+                    <div class="stat-sub-container">
+                        <p class="stat-number">10+</p>
+                        <p class="stat-info">
+                            Team <br />
+                            Members
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="second-page margin">
+            <div class="left-container-second-page">
+                <div class="circle-one"></div>
+                <div class="circle-two"></div>
+                <div class="wrap">
+                    <div class="meta"></div>
+                    <div class="meta"></div>
+                </div>
+                <p id="second-left-text">
+                    Trade with confidence using different AI powered advising tools
+                </p>
+            </div>
+
+
+            <p id="second-right-text">
+                With Stokastic, we are giving everyone the power of an <span class="highlighted">informed
+                    investing decision.</span> Join our growing community of investors.
+            </p>
+        </section>
+
+        <section class="why-us margin" id="why-us">
+            <div class="left-why-us">
+                <div class="why-title">
+                    <p>Why should you use Stockastic?</p>
+                    <hr
+                        style="height:5px;border-width:0;color:var(--hr);background-color:var(--hr);border-radius: 5px;margin-top: 10px;width: 100%;">
+                </div>
+            </div>
+            <div class="info-container">
+                <div class="info-box animate__fadeInDown">
+                    <div class="box-title">Most traders <br> loose money
+                        <p><i class="fa-solid fa-hand-holding-dollar"></i></p>
+                    </div>
+                    <div class="box-text"> While most traders loose money when day trading, Stockastic can help curb
+                        that trend and increase a trader’s chances of success
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="box-title">Biased <br> information
+                        <p><i class="fa-solid fa-circle-info"></i></p>
+                    </div>
+                    <div class="box-text">Stockastic’s tested algorithm can predict both long and short term market
+                        trends with staggering success
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="box-title">Lack of <br> technical analysis
+                        <p><i class="fa-solid fa-magnifying-glass-chart"></i></p>
+                    </div>
+                    <div class="box-text">For the average day trader it can be hard to come by quality technical
+                        analysis with sufficient indicators.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="solution-section margin">
+            <div class="left-why-us">
+                <div class="why-title">
+                    <p>Our solution</p>
+                    <hr
+                        style="height:5px;border-width:0;color:var(--hr);background-color:var(--hr);border-radius: 5px;margin-top: 10px;width: 100%;">
+                </div>
+            </div>
+            <div class="solution-flex-container">
+                <div class="row">
+                    <div class="info-box-about">
+                        <div class="box-title-solution">
+                            <div class="solution-image larger-image">
+                                <img src="resources/beginner-friendly.png" alt="" srcset="">
+                            </div>Beginner-friendly Platform
+                        </div>
+
+                        <div class="box-text-about">With our intuitive UI and comprehensive instructions, anyone with a
+                            basic understanding of technology can use Stockastic to it’s full extent.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="info-box-about">
+                        <div class="box-title-solution">
+                            <div class="solution-image">
+                                <img src="resources/machine-learning.png" alt="" srcset="">
+                            </div>Innovative machine learning
+                        </div>
+                        <div class="box-text-about">Stockastic uses highly advanced machine learning technology, with
+                            dozens of technical and fundamental parameters.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="info-box-about">
+                        <div class="box-title-solution">
+                            <div class="solution-image">
+                                <img src="resources/data-that-matters.png" alt="" srcset="">
+                            </div>Data that matters
+                        </div>
+                        <div class="box-text-about">Stockastic pulls in data from various reputable sources to deliver
+                            the
+                            absolute best possible sentiment analysis.
+                        </div>
+                    </div>
+
+                </div>
+                <!--
+                <div class="left-solution">
+                    <div class="info-box">
+                        <div class="box-title">Data that matters</div>
+                        <div class="box-text">Stockastic pools in data from various reputable sources to deliver the
+                            absolute best possible sentiment analysis.
+                        </div>
+                    </div>
+                    <div class="solution-image">
+                        <img src="resources/beginner-friendly.png" alt="" srcset="">
+                    </div>
+                    <div class="info-box">
+                        <div class="box-title">State-of-the-art <br>
+                            machine learning</div>
+                        <div class="box-text">Stockastic’s tested algorithm can predict both long and short term market
+                            trends with staggering success
+                        </div>
+                    </div>
+                </div>
+                <div class="right-solution">
+                    <div class="solution-image">
+                        <img src="resources/data-that-matters.png" alt="" srcset="">
+                    </div>
+                    <div class="info-box">
+                        <div class="box-title">Beginner friendly</div>
+                        <div class="box-text">With our intuitive UI and compreensive instructions, anyone with a basic
+                            understanding of technology can use Stockastic to it’s full extent.
+                        </div>
+                    </div>
+                    <div class="solution-image">
+                        <img src="resources/machine-learning.png" alt="" srcset="">
+                    </div>
+                </div>
+                -->
+            </div>
+        </section>
+
+        <section class="team-page" id="team-info">
+            <section class="team-members margin">
+                <div class="title-container">
+                    <p class="who-are-we-title">Meet our team</p>
+                </div>
+                <div class="team-container margin">
+
+                    <div class="team-member" id="luis-parra">
+                        <img class="team-portrait" src="resources/luis-parra.png" alt="Luis Parra portrait" srcset="">
+                        <div class="bottom-container">
+                            <div class="member-text">
+                                <p class="member-name">Luis Parra</p>
+                                <p class="member-job">Co-Founder</p>
+                            </div>
+                            <a class="linkedin-logo" href="https://www.linkedin.com/in/luisjoseparra/">
+                                <img src="resources/linkdin-logo.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-member" id="fred">
+                        <img class="team-portrait" src="resources/luis-parra.png" alt="Vasco Azinheiro portrait"
+                            srcset="">
+                        <div class="bottom-container">
+                            <div class="member-text">
+                                <p class="member-name">Frederico Araújo</p>
+                                <p class="member-job">Co-Founder</p>
+                            </div>
+                            <a class="linkedin-logo" href="https://www.linkedin.com/in/tomaspaixaorosa/">
+                                <img src="resources/linkdin-logo.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-member" id="ricardo-silva">
+                        <img class="team-portrait" src="resources/ricardo-silva.png" alt="Ricardo Silva portrait"
+                            srcset="">
+                        <div class="bottom-container">
+                            <div class="member-text">
+                                <p class="member-name">Ricardo Silva</p>
+                                <p class="member-job">ML Developer</p>
+                            </div>
+                            <a class="linkedin-logo" href="https://www.linkedin.com/in/tomaspaixaorosa/">
+                                <img src="resources/linkdin-logo.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-member" id="diogo-costa">
+                        <img class="team-portrait" src="resources/diogo-costa.png" alt="Diogo Costa portrait" srcset="">
+                        <div class="bottom-container">
+                            <div class="member-text">
+                                <p class="member-name">Diogo Costa</p>
+                                <p class="member-job">ML Developer</p>
+                            </div>
+                            <a class="linkedin-logo" href="https://www.linkedin.com/in/tomaspaixaorosa/">
+                                <img src="resources/linkdin-logo.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-member" id="tomas">
+                        <img class="team-portrait" src="resources/tomas-rosa.png" alt="Tomás Rosa portrait" srcset="">
+                        <div class="bottom-container">
+                            <div class="member-text">
+                                <p class="member-name">Tomás Rosa</p>
+                                <p class="member-job">Web Developer</p>
+                            </div>
+                            <a class="linkedin-logo" href="https://www.linkedin.com/in/tomaspaixaorosa/">
+                                <img src="resources/linkdin-logo.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-member" id="vicente-caldeira">
+                        <img class="team-portrait" src="resources/vicente-caldeira.png" alt="Rui Moreno portrait"
+                            srcset="">
+                        <div class="bottom-container">
+                            <div class="member-text">
+                                <p class="member-name">Vicente Caldeira</p>
+                                <p class="member-job">Web Developer</p>
+                            </div>
+                            <a class="linkedin-logo" href="https://www.linkedin.com/in/tomaspaixaorosa/">
+                                <img src="resources/linkdin-logo.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-member" id="rui-moreno">
+                        <img class="team-portrait" src="resources/rui-moreno.png" alt="Rui Moreno portrait" srcset="">
+                        <div class="bottom-container">
+                            <div class="member-text">
+                                <p class="member-name">Rui Moreno</p>
+                                <p class="member-job">Public Relations</p>
+                            </div>
+                            <a class="linkedin-logo" href="https://www.linkedin.com/in/tomaspaixaorosa/">
+                                <img src="resources/linkdin-logo.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-member" id="hugo-carlos">
+                        <img class="team-portrait" src="resources/hugo-carlos.png" alt="Rui Moreno portrait" srcset="">
+                        <div class="bottom-container">
+                            <div class="member-text">
+                                <p class="member-name">Hugo Carlos </p>
+                                <p class="member-job">Public Relations</p>
+                            </div>
+                            <a class="linkedin-logo" href="https://www.linkedin.com/in/tomaspaixaorosa/">
+                                <img src="resources/linkdin-logo.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-member" id="ines-castro">
+                        <img class="team-portrait" src="resources/rui-moreno.png" alt="Rui Moreno portrait" srcset="">
+                        <div class="bottom-container">
+                            <div class="member-text">
+                                <p class="member-name">Inês de Castro</p>
+                                <p class="member-job">Marketing</p>
+                            </div>
+                            <a class="linkedin-logo" href="https://www.linkedin.com/in/tomaspaixaorosa/">
+                                <img src="resources/linkdin-logo.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-member" id="andre-godinho">
+                        <img class="team-portrait" src="resources/andre-godinho.png" alt="Rui Moreno portrait"
+                            srcset="">
+                        <div class="bottom-container">
+                            <div class="member-text">
+                                <p class="member-name">André Godinho </p>
+                                <p class="member-job">Marketing</p>
+                            </div>
+                            <a class="linkedin-logo" href="https://www.linkedin.com/in/andr%C3%A9-godinho-6b3451204/">
+                                <img src="resources/linkdin-logo.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-member" id="goncalo-frazao">
+                        <img class="team-portrait" src="resources/goncalo-frazao.png" alt="Rui Moreno portrait"
+                            srcset="">
+                        <div class="bottom-container">
+                            <div class="member-text">
+                                <p class="member-name">Gonçalo Frazão</p>
+                                <p class="member-job">ML Developer</p>
+                            </div>
+                            <a class="linkedin-logo" href="https://www.linkedin.com/in/gonçalo-frazão-8983a511b/">
+                                <img src="resources/linkdin-logo.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="team-member" id="joana-drago">
+                        <img class="team-portrait" src="resources/rui-moreno.png" alt="Rui Moreno portrait" srcset="">
+                        <div class="bottom-container">
+                            <div class="member-text">
+                                <p class="member-name">Joana Drago</p>
+                                <p class="member-job">Design</p>
+                            </div>
+                            <a class="linkedin-logo" href="https://www.linkedin.com/in/tomaspaixaorosa/">
+                                <img src="resources/linkdin-logo.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="supported-by">
+            <div class="support-left-container">
+                <p class="support">Supported by:</p>
+            </div>
+            <div class="support-right-container">
+                <a href="https://www.harvardventures.org/"><img src="resources/harvard-ventures.png" alt="">
+                </a>
+
+            </div>
+        </section>
+        <footer>
+            <div class="footer" id="footer">
+                <div class="text-container-footer">
+                    <div class="logo">
+                        <div class="logoimg"></div>
+                        <a href="#first-page" id="footer-logo" class="logo">Stockastic</a>
+                    </div>
+                    <div class="subcontainers-footer">
+                        <p class="title">Contact</p>
+                        <p class="phone-number"> <span class="darker"> <i class="fa-solid fa-phone"></i></span> &nbsp
+                            +351
+                            926 715 857 </p>
+                        <a href="mailto:contact@" class="link-footer"><span class="darker"><i
+                                    class="fa-solid fa-envelope"></i></span>
+                            &nbsp stockasticteam@gmail.com</a>
+                    </div>
+                    <p class="terms-conditions">©Stockastic 2022</p>
+                </div>
+                <div class="map-container">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/6af7222a69.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
