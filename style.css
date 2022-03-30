@@ -468,8 +468,8 @@ input[type="checkbox"] {
   .box-text {
     justify-content: center;
     align-items: center;
-    width: 100%;
     text-align: center;
+    width: 80vw;
   }
 }
 .why-title {
@@ -509,6 +509,7 @@ input[type="checkbox"] {
 .box-text {
   font-size: 1.2em;
   color: #393939;
+  text-align: center;
 }
 
 .solution-section {
